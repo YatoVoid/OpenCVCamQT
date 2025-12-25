@@ -1,0 +1,63 @@
+
+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
+
+
+cd Documents/College\ Classes/
+
+git status
+
+&nbsp;
+
+git add .
+
+git commit -m "Commit"
+
+git push origin master
+
+
+
+#124474 Blue
+#FBD12C Yellow
+#D0DAE2 White
+#84A1BA gr1
+#85A2B4  gr2
+
+
+
+
+
+
+sudo chmod 666 /dev/ttyUSB0
+
+ARCH=x86_64 ~/Downloads/appimagetool-x86_64.AppImage /home/wali/VisualStudioCpp/CardConfig.AppDir
+
+
+	
+
+sudo docker push walilambert/opencv_cam_qt:latest
+			
+docker build -t opencv_cam_qt .
+
+docker run -it opencv_cam_qt /bin/bash
+
+sudo docker login
+
+sudo docker tag walilambert/opencv_cam_qt:latest walilambert/opencv_cam_qt:latest
+
+
+
+#On someone elses Laptop
+sudo docker pull walilambert/opencv_cam_qt:latest
+
+xhost +local:docker
+
+
+
+
+
+
+http://www.ctheroux.com/how-to-install-libnfc-for-pn532-nfc-readers-on-linux/
+
+Then /etc/nfc/libnfc.conf add line
+pn532_uart:/dev/ttyUSB0
+	
